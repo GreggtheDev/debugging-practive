@@ -90,12 +90,3 @@ For questions or suggestions, feel free to open an issue or contact the project 
 
 ---
 
-Happy coding!
-```
-
-### Additional Notes:
-
-- Replace any placeholder information with actual details relevant to your project.
-- You might want to include instructions on how to clone the repository if this is part of a larger project or is hosted on a version control platform like GitHub.
-
-Feel free to customize this README to better fit your project's specific details and requirements.

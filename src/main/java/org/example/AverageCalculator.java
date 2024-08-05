@@ -1,9 +1,12 @@
 public class AverageCalculator {
 
     public static double calculateAverage(int[] numbers) {
+        if (numbers == null) {
+            throw new IllegalArgumentException("The array cannot be null");
+        }
         int sum = 0;
-        for (int i = 0; i <= numbers.length; i++) {
-            sum += numbers[i];
+        for (int number : numbers) {
+            sum += number;
         }
         return (double) sum / numbers.length;
     }

@@ -1,5 +1,3 @@
-package org.example;
-
 public class AverageCalculator {
 
     public static double calculateAverage(int[] numbers) {
@@ -13,6 +11,9 @@ public class AverageCalculator {
     public static void main(String[] args) {
         int[] testArray = {1, 2, 3, 4, 5};
         System.out.println("The average is: " + calculateAverage(testArray));
+
+        // Introduce a NullPointerException
+        int[] nullArray = null;
+        System.out.println("The average is: " + calculateAverage(nullArray));
     }
 }
-
